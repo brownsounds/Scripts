@@ -1,7 +1,7 @@
 #!/bin/bash
 #kickstart new machine
 
-/curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install | ruby
+curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install | ruby
 
 #add homebrew cask repo
 brew tap caskroom/cask
